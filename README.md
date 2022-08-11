@@ -7,10 +7,8 @@
   </a>
   <h1 align="center">Algorithm Visualizer</h1>
   <p align="center">
-  <i><b>A desktop app made using Tkinter and Pygame modules of Python to visualize different computer algorithms like searching, sorting and backtracking e.t.c.
+  <i><b>A desktop app made using Tkinter and Pygame modules of Python to visualize different computer algorithms like searching and sorting.
   The main motive of this project is to help out beginners who's trying to understand the basic idea of common algorithms. <br/>
-  More algorithms and sounds will be added in future to improve overall experience of the users and make this app more user friendly.<br/>
-    Any contributions to make this project better is welcome.</b></i>
   </p>
 </p>
 
