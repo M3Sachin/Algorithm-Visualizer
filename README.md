@@ -47,7 +47,7 @@ The Sorting Algorithm Visualizer window again has the option to change the searc
 #### &nbsp;&nbsp;&nbsp;&nbsp;Insertion Sort
 &nbsp;&nbsp;&nbsp;&nbsp; ![Insertion Sort](gifs/insertion_sort.gif)
 #### &nbsp;&nbsp;&nbsp;&nbsp;Bubble Sort
-&nbsp;&nbsp;&nbsp;&nbsp; ![Bubble Sort](gifs/bubble.gif)
+&nbsp;&nbsp;&nbsp;&nbsp; ![Bubble Sort](gifs/BUBBLESORT.gif)
 #### &nbsp;&nbsp;&nbsp;&nbsp;Merge Sort
 &nbsp;&nbsp;&nbsp;&nbsp; ![Merge Sort](gifs/merge_sort.gif)
 #### &nbsp;&nbsp;&nbsp;&nbsp;Quick Sort
