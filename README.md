@@ -28,14 +28,14 @@
 ### Main Window
 The main window has two dropdown menus to select the Algorithm Type and Name which the user wants to visualize. By default, the Algorithm Name menu is set to None, but if an Algorithm Type is selected it will get automatically updated with the different algorithms of that type. The next button will take you to a new window depending on the algorithm selected. For exit, it will show a warning message to check if you really want to exit or not. Below a gif is shown demonstrating the main window.
 
-![Farmers Market Finder Demo](Demo/main_window.gif)
+![Farmers Market Finder gifs](gifs/main_window.gif)
 
 ### Searching Algorithms
 The Searching Algorithm Visualizer window again has the option to change the searching algorithm according to user needs (i.e. no need to go to the main window to change). Option to generate and shuffle the array is provided. A blank text box is given to enter the value of element user wants to search. The search button starts the searching operation. Slider for changing the size of the array and the speed of the visualization is provided. There's a label for showing number of comparisons and where the element is found after searching is done. Also an algorithm info section is given which will give necessary time complexity details of the searching algorithm. Button for going back to the main menu is also given. The searching is done on bar graphs with already checked elements marked with red and the searched element (if found) with green.
 #### &nbsp;&nbsp;&nbsp;&nbsp;Linear Search
-&nbsp;&nbsp;&nbsp;&nbsp; ![Farmers Market Finder Demo](Demo/linear.gif)
+&nbsp;&nbsp;&nbsp;&nbsp; ![Linear Search](gifs/Linear_serach.gif)
 #### &nbsp;&nbsp;&nbsp;&nbsp;Binary Search
-&nbsp;&nbsp;&nbsp;&nbsp; ![Farmers Market Finder Demo](Demo/binary.gif)
+&nbsp;&nbsp;&nbsp;&nbsp; ![Binary Search](gifs/Binary_search.gif)
 
 
 ### Sorting Algorithms
@@ -43,19 +43,19 @@ The Sorting Algorithm Visualizer window again has the option to change the searc
 #### &nbsp;&nbsp;&nbsp;&nbsp;Sorting Algorithm Visualizer Interface
 &nbsp;&nbsp;&nbsp;&nbsp; ![Farmers Market Finder Demo](Demo/sorting_interface.gif)
 #### &nbsp;&nbsp;&nbsp;&nbsp;Selection Sort
-&nbsp;&nbsp;&nbsp;&nbsp; ![Farmers Market Finder Demo](Demo/selection.gif)
+&nbsp;&nbsp;&nbsp;&nbsp; ![Selection Sort](gifs/Selection_Sort.gif)
 #### &nbsp;&nbsp;&nbsp;&nbsp;Insertion Sort
-&nbsp;&nbsp;&nbsp;&nbsp; ![Farmers Market Finder Demo](Demo/insertion.gif)
+&nbsp;&nbsp;&nbsp;&nbsp; ![Insertion Sort](gifs/insertion_sort.gif)
 #### &nbsp;&nbsp;&nbsp;&nbsp;Bubble Sort
-&nbsp;&nbsp;&nbsp;&nbsp; ![Farmers Market Finder Demo](Demo/bubble.gif)
+&nbsp;&nbsp;&nbsp;&nbsp; ![Bubble Sort](gifs/bubble.gif)
 #### &nbsp;&nbsp;&nbsp;&nbsp;Merge Sort
-&nbsp;&nbsp;&nbsp;&nbsp; ![Farmers Market Finder Demo](Demo/merge.gif)
+&nbsp;&nbsp;&nbsp;&nbsp; ![Merge Sort](gifs/merge_sort.gif)
 #### &nbsp;&nbsp;&nbsp;&nbsp;Quick Sort
-&nbsp;&nbsp;&nbsp;&nbsp; ![Farmers Market Finder Demo](Demo/quick.gif)
+&nbsp;&nbsp;&nbsp;&nbsp; ![Quick Sort](gifs/quick_sort.gif)
 #### &nbsp;&nbsp;&nbsp;&nbsp;Heap Sort
-&nbsp;&nbsp;&nbsp;&nbsp; ![Farmers Market Finder Demo](Demo/heap.gif)
+&nbsp;&nbsp;&nbsp;&nbsp; ![Heap Sort](gifs/heap_sort.gif)
 #### &nbsp;&nbsp;&nbsp;&nbsp;Radix Sort
-&nbsp;&nbsp;&nbsp;&nbsp; ![Farmers Market Finder Demo](Demo/radix.gif)
+&nbsp;&nbsp;&nbsp;&nbsp; ![Radix Sort](gifs/radix_sort.gif)
 
 
 
