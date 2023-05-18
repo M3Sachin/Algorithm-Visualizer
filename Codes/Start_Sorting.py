@@ -7,6 +7,8 @@ from threading import *
 from tkinter import *
 import Codes.Start_Threading
 
+import os, sys
+
 # Main sorting class
 class Sorting:
     def __init__(self, root, AlgoNameVar):
@@ -43,9 +45,9 @@ class Sorting:
         # Title And Icon
         self.root.title("Sorting Algorithm Visualizer")
         try:
-            self.root.iconbitmap("Images/sorting.ico")
+            self.root.iconbitmap(os.path.join(sys.path[0], "Images/algorithm.ico"))
         except:
-            img = PhotoImage("Images/sorting.ico")
+            img = PhotoImage(os.path.join(sys.path[0], "Images/algorithm.ico"))
             self.root.tk.call('wm', 'iconphoto', self.root._w, img)
 
 
