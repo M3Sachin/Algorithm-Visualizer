@@ -1,3 +1,5 @@
+import os
+import sys
 from tkinter import *
 from tkinter import messagebox
 from random import shuffle, sample
@@ -43,9 +45,9 @@ class Searching:
         # Title And Icon
         self.root.title("Searching Algorithm Visualizer")
         try:
-            self.root.iconbitmap("Images/search.ico")
+            self.root.iconbitmap(os.path.join(sys.path[0], "Images/algorithm.ico"))
         except:
-            img = PhotoImage("Images/search.ico")
+            img = PhotoImage(os.path.join(sys.path[0], "Images/algorithm.ico"))
             self.root.tk.call('wm', 'iconphoto', self.root._w, img)
 
         # Starting size of the array

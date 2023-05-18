@@ -1,8 +1,11 @@
+import os
 from tkinter import *
 from tkinter import messagebox
 import Codes.Start_Threading
 from Codes.Start_Sorting import *
 from Codes.Start_Searching import *
+from tkinter import PhotoImage
+import sys
 
 class Window:
     def __init__(self, root):
@@ -20,13 +23,13 @@ class Window:
         self.root.geometry('%dx%d+%d+%d' % (self.wx, self.wy, self.WINDOW_X, self.WINDOW_Y))
         self.root.config(bg="#7BD1F2")
         self.root.resizable(False, False)
-
+   
         # Title And Icon
         self.root.title("Algorithm Visualizer")
         try:
-            self.root.iconbitmap("Images/algorithm.ico")
+            self.root.iconbitmap(os.path.join(sys.path[0], "Images/algorithm.ico"))  
         except:
-            img = PhotoImage("Images/algorithm.ico")
+            img = PhotoImage(os.path.join(sys.path[0], "Images/algorithm.ico"))
             self.root.tk.call('wm', 'iconphoto', self.root._w, img)
 
         # Heading of the main window
